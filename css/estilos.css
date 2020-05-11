@@ -1,0 +1,39 @@
+body {
+    /* background-color: #4499ff; */
+    background-image: url("https://cdn.wallpapersafari.com/64/0/WNaocO.jpg");
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    /* Justify-content only works with display: flex */
+    display: flex;
+    justify-content: space-around; /* space-between */
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-title {
+    text-align: center;
+  }
+  
+  .site-subtitle {
+    text-align: left;
+    font-style: italic;
+  }
