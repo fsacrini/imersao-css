@@ -9,13 +9,24 @@ body {
     /* background-color: #4499ff; */
     background-image: url("https://cdn.wallpapersafari.com/64/0/WNaocO.jpg");
     background-size: auto 100vh;
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     height: 100vh
   }
 
   @media(min-width: 400px) {
     body {
       font-size: 14px;
+    }
+  }
+
+  @media(min-width: 800px) {
+    body {
+      font-size: 1.2em;
+    }
+    .site-title {
+      text-align: center;
+      font-family: 'Playball', cursive;
+      font-size: 5em;
     }
   }
   
@@ -60,13 +71,19 @@ body {
 
   .site-title {
     text-align: center;
+    font-family: 'Playball', cursive;
   }
 
   .site-subtitle {
     text-align: center;
     font-style: italic;
+    font-family: 'Big Shoulders Display', cursive;
   }
 
+  .portfolio h2{
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  
   img-portfolio {
     height: 100px;
     width: 100px;
